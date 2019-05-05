@@ -1,0 +1,204 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 216 304)
+	(text "datapath" (rect 5 0 54 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 272 25 284)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "clk" (rect 0 0 15 14)(font "Arial" (font_size 8)))
+		(text "clk" (rect 21 27 36 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "rst" (rect 0 0 15 14)(font "Arial" (font_size 8)))
+		(text "rst" (rect 21 43 36 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "cntinit" (rect 0 0 33 14)(font "Arial" (font_size 8)))
+		(text "cntinit" (rect 21 59 54 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "cnten" (rect 0 0 31 14)(font "Arial" (font_size 8)))
+		(text "cnten" (rect 21 75 52 89)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "init" (rect 0 0 15 14)(font "Arial" (font_size 8)))
+		(text "init" (rect 21 91 36 105)(font "Arial" (font_size 8)))
+		(line (pt 0 96)(pt 16 96))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "xsel" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "xsel" (rect 21 107 44 121)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 16 112))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "romsel" (rect 0 0 37 14)(font "Arial" (font_size 8)))
+		(text "romsel" (rect 21 123 58 137)(font "Arial" (font_size 8)))
+		(line (pt 0 128)(pt 16 128))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "x2sel" (rect 0 0 30 14)(font "Arial" (font_size 8)))
+		(text "x2sel" (rect 21 139 51 153)(font "Arial" (font_size 8)))
+		(line (pt 0 144)(pt 16 144))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "x2multsel" (rect 0 0 53 14)(font "Arial" (font_size 8)))
+		(text "x2multsel" (rect 21 155 74 169)(font "Arial" (font_size 8)))
+		(line (pt 0 160)(pt 16 160))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "xbus[15..0]" (rect 0 0 63 14)(font "Arial" (font_size 8)))
+		(text "xbus[15..0]" (rect 21 171 84 185)(font "Arial" (font_size 8)))
+		(line (pt 0 176)(pt 16 176)(line_width 3))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "xlden" (rect 0 0 30 14)(font "Arial" (font_size 8)))
+		(text "xlden" (rect 21 187 51 201)(font "Arial" (font_size 8)))
+		(line (pt 0 192)(pt 16 192))
+	)
+	(port
+		(pt 0 208)
+		(input)
+		(text "tanlden" (rect 0 0 41 14)(font "Arial" (font_size 8)))
+		(text "tanlden" (rect 21 203 62 217)(font "Arial" (font_size 8)))
+		(line (pt 0 208)(pt 16 208))
+	)
+	(port
+		(pt 0 224)
+		(input)
+		(text "termxsel" (rect 0 0 48 14)(font "Arial" (font_size 8)))
+		(text "termxsel" (rect 21 219 69 233)(font "Arial" (font_size 8)))
+		(line (pt 0 224)(pt 16 224))
+	)
+	(port
+		(pt 0 240)
+		(input)
+		(text "multsel" (rect 0 0 38 14)(font "Arial" (font_size 8)))
+		(text "multsel" (rect 21 235 59 249)(font "Arial" (font_size 8)))
+		(line (pt 0 240)(pt 16 240))
+	)
+	(port
+		(pt 0 256)
+		(input)
+		(text "termlden" (rect 0 0 48 14)(font "Arial" (font_size 8)))
+		(text "termlden" (rect 21 251 69 265)(font "Arial" (font_size 8)))
+		(line (pt 0 256)(pt 16 256))
+	)
+	(port
+		(pt 200 32)
+		(output)
+		(text "cntdone" (rect 0 0 46 14)(font "Arial" (font_size 8)))
+		(text "cntdone" (rect 133 27 179 41)(font "Arial" (font_size 8)))
+		(line (pt 200 32)(pt 184 32))
+	)
+	(port
+		(pt 200 48)
+		(output)
+		(text "romout[15..0]" (rect 0 0 74 14)(font "Arial" (font_size 8)))
+		(text "romout[15..0]" (rect 105 43 179 57)(font "Arial" (font_size 8)))
+		(line (pt 200 48)(pt 184 48)(line_width 3))
+	)
+	(port
+		(pt 200 64)
+		(output)
+		(text "multout[15..0]" (rect 0 0 75 14)(font "Arial" (font_size 8)))
+		(text "multout[15..0]" (rect 104 59 179 73)(font "Arial" (font_size 8)))
+		(line (pt 200 64)(pt 184 64)(line_width 3))
+	)
+	(port
+		(pt 200 80)
+		(output)
+		(text "addout[15..0]" (rect 0 0 74 14)(font "Arial" (font_size 8)))
+		(text "addout[15..0]" (rect 105 75 179 89)(font "Arial" (font_size 8)))
+		(line (pt 200 80)(pt 184 80)(line_width 3))
+	)
+	(port
+		(pt 200 96)
+		(output)
+		(text "mux1out[15..0]" (rect 0 0 83 14)(font "Arial" (font_size 8)))
+		(text "mux1out[15..0]" (rect 96 91 179 105)(font "Arial" (font_size 8)))
+		(line (pt 200 96)(pt 184 96)(line_width 3))
+	)
+	(port
+		(pt 200 112)
+		(output)
+		(text "mux3out[15..0]" (rect 0 0 83 14)(font "Arial" (font_size 8)))
+		(text "mux3out[15..0]" (rect 96 107 179 121)(font "Arial" (font_size 8)))
+		(line (pt 200 112)(pt 184 112)(line_width 3))
+	)
+	(port
+		(pt 200 128)
+		(output)
+		(text "tanx[15..0]" (rect 0 0 60 14)(font "Arial" (font_size 8)))
+		(text "tanx[15..0]" (rect 119 123 179 137)(font "Arial" (font_size 8)))
+		(line (pt 200 128)(pt 184 128)(line_width 3))
+	)
+	(port
+		(pt 200 144)
+		(output)
+		(text "xregout[15..0]" (rect 0 0 79 14)(font "Arial" (font_size 8)))
+		(text "xregout[15..0]" (rect 100 139 179 153)(font "Arial" (font_size 8)))
+		(line (pt 200 144)(pt 184 144)(line_width 3))
+	)
+	(port
+		(pt 200 160)
+		(output)
+		(text "mux2out[15..0]" (rect 0 0 83 14)(font "Arial" (font_size 8)))
+		(text "mux2out[15..0]" (rect 96 155 179 169)(font "Arial" (font_size 8)))
+		(line (pt 200 160)(pt 184 160)(line_width 3))
+	)
+	(port
+		(pt 200 176)
+		(output)
+		(text "termout[15..0]" (rect 0 0 77 14)(font "Arial" (font_size 8)))
+		(text "termout[15..0]" (rect 102 171 179 185)(font "Arial" (font_size 8)))
+		(line (pt 200 176)(pt 184 176)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 184 272))
+	)
+)

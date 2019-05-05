@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="ca6">
+		<CBX_INST_ENTRY INSTANCE_NAME="|ca6|datapath:DATAPATH|lpm_add_sub0:Adder|lpm_add_sub:LPM_ADD_SUB_component" CBX_FILE_NAME="add_sub_rlh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ca6|datapath:DATAPATH|lpm_counter1:cntr|lpm_counter:LPM_COUNTER_component" CBX_FILE_NAME="cntr_frk.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ca6|datapath:DATAPATH|LPM_DFF:tan|lpm_constant:sc" CBX_FILE_NAME="lpm_constant_2d4.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ca6|datapath:DATAPATH|multiplier:mult|lpm_mult:Mult0" CBX_FILE_NAME="mult_l8t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ca6|datapath:DATAPATH|oneportrom:ROM|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_ir61.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

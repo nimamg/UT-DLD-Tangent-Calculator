@@ -1,0 +1,9 @@
+
+State Machine - |ca6|controller:CONTROLLER|ps
+Name ps.termcalc ps.tg1 ps.calcx2 ps.loading ps.starting ps.idle 
+ps.idle 0 0 0 0 0 0 
+ps.starting 0 0 0 0 1 1 
+ps.loading 0 0 0 1 0 1 
+ps.calcx2 0 0 1 0 0 1 
+ps.tg1 0 1 0 0 0 1 
+ps.termcalc 1 0 0 0 0 1 
